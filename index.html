@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
     <link rel="stylesheet" href="assets/style.css" />
+    <script src="script/jquery3.5.js"></script>
 </head>
 
 <body>
@@ -22,19 +23,34 @@
             <article class="col-md-4">
                 <h4>Search for a City</h3>
                     <!--searchbar-->
-                    <form class="navbar-form">
+                    <div class="navbar-form list group">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="search">
+                            <input type="text" class="form-control">
                         </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
+                        <button id="submit-city" type="button" class="btn btn-success">Search</button>
+                        </form>
+                        <ul id="city" type="list-group-item">
+                        </ul>
+
+
             </article>
+
+
         </section>
+
+
+
+
+
+
+
+
+
 
 
     </div>
 
-    <script src="./assets.script.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
