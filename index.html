@@ -20,7 +20,7 @@
 
     <div class="container">
         <section class="row">
-            <article class="col-md-4">
+            <div class="col-md-4">
                 <h4>Search for a City</h3>
                     <!--searchbar-->
                     <div class="navbar-form list group">
@@ -33,7 +33,37 @@
                         </ul>
 
 
-            </article>
+                    </div>
+                    <!--divs for display of weather Temperature etc-->
+                    <div class="col-md-8">
+                        <div class="col-md-12 card" id="current-weather">
+                            <div class="date-Line">
+                                <span id="weather-date"></span>
+                                <img src="" alt="" id="weather-img" />
+                            </div>
+                            <div class="temp-line">
+                                Temperature:
+                                <span class="measure" id="weather-temp"></span>
+                            </div>
+                            <div class="temp-line">
+                                Humidity:
+                                <span class="measure" id="weather-humidity"></span>
+                            </div>
+                            <div class="temp-line">
+                                Wind Speed:
+                                <span class="measure" id="weather-speed"></span>
+                            </div>
+                            <div class="temp-line">
+                                UV index:
+                                <span class="measure" id="weather-uv"></span>
+                            </div>
+
+
+
+                        </div>
+
+
+                    </div>
 
 
         </section>
