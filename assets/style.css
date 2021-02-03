@@ -14,6 +14,8 @@
   align-items: center;
   list-style-type: none;
 }
+
+/* styling for the five day forecast*/
 #five-day li {
   display: flex;
   flex-direction: column;
@@ -42,6 +44,9 @@
   margin: 0;
   list-style-type: none;
 }
+
+/*styling for the search history*/
+
 #city li {
   margin: 10px 0;
   padding: 0.5em 0;
