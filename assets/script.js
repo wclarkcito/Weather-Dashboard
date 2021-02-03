@@ -6,9 +6,9 @@ var uvIndex = "";
 var submitCity = $('#submit-city');
 
 var forecastURL = 'http://api.openweathermap.org/data/2.5/forecast?q=';
-var apiKey = '7bb91bb18b7935d889972f049c9ce57e';
+var apiKey = '643023c5499bd5e2ce5d5d93c212f70c';
 var appId = '&appid=';
-//fetch request for url
+
 
 
 
@@ -25,6 +25,7 @@ function displayWeather(searchInput) {
     var submitURL = forecastURL + searchInput + appId + apiKey;
     //console.log(submitURL)
 
+    //api calls for weather, 5 day forecast and UV index
     $.ajax({
         url: submitURL,
         method: 'GET'
@@ -55,7 +56,7 @@ function displayWeather(searchInput) {
 
 
 }
-//local storage
+//functions for local storage
 function handleHistory(value) {
     var tempHistory = JSON.parse(window.localStorage.getItem("history"));
     console.log(tempHistory)
