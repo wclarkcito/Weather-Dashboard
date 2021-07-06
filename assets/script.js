@@ -23,7 +23,7 @@ function displayWeather(searchInput) {
 
 
     var submitURL = forecastURL + searchInput + appId + apiKey;
-    //console.log(submitURL)
+
 
     //api calls for weather, 5 day forecast and UV index
     $.ajax({
@@ -59,7 +59,7 @@ function displayWeather(searchInput) {
 
 
 }
-//functions for local storage
+//function to store search history to local storage
 function handleHistory(value) {
     var tempHistory = JSON.parse(window.localStorage.getItem("history"));
     console.log(tempHistory)

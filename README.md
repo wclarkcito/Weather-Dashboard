@@ -2,9 +2,11 @@
 
 ## a weather app allowing the user to search for any city and pull up the current weather with the humidity as well as the UV index. A five day forecast is also included and displayed below the current weather.
 
-# Links
+# Link to github repository
 
 ## https://github.com/wclarkcito/Weather-Dashboard
+
+# Link to deployed site
 
 ## https://wclarkcito.github.io/Weather-Dashboard/
 
